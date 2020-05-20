@@ -1,0 +1,58 @@
+.bg-experian {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -10px -10px;
+}
+
+
+.bg-tcs {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -10px -90px;
+}
+
+
+.bg-infosys {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -181px -10px;
+}
+
+
+.bg-amazon {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -181px -90px;
+}
+
+
+.bg-samsung {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -10px -170px;
+}
+
+
+.bg-oyo {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -181px -170px;
+}
+
+
+.bg-exp_media {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -10px -250px;
+}
+
+
+.bg-boeing {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -181px -250px;
+}
+
+
+.bg-factset {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -352px -10px;
+}
+
+
+.bg-uhg {
+    width: 151px; height: 60px;
+    background: url('logo_sprites.png') -352px -90px;
+}

@@ -1,0 +1,113 @@
+0. PLEASE CHECK PROBLEM CONSTRAINTS!!!!!!
+
+0. https://www.geeksforgeeks.org/malloc-vs-new/
+
+0.1 Access global declared variable e.g. int x by ::x
+
+0.2 In recursion, the recursive tree gets solved in postorder fashion.
+
+1. lower_bound and upper_bound work or a sorted vector(and set). lower_bound gives the first element >= given element. upper_bound gives the first element > given element.
+
+2. Iterator is like a pointer. *it will give the datastructure.
+
+3. Dynamic Programming playlist -  https://www.youtube.com/watch?v=l02UxPYRmCQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=2
+
+4. Don't use static variables for recursion based questions involving multiple test cases. See solution for 0-1 knapsack.
+
+5. https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.
+
+6. Check even/odd through number & 1 ( & is bitoperator)
+
+7. Number of ways to partition a set https://www.geeksforgeeks.org/bell-numbers-number-of-ways-to-partition-a-set/
+
+8. https://www.geeksforgeeks.org/modulo-1097-1000000007/
+
+9. https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+
+10. ---------------------------------------------
+a. vector<int> - Dynamic array
+
+b. pair<datatype1, datatype2> - holds a pair of datavalues(same/different) in one variable. Implemented using struct/class
+
+c. sets and maps - Binary search tree
+insertion, deletion, find - O(logn). Use when ordering in form of ascending/descending order is needed. Cannot store duplicates
+
+d. unordered set and unordered_map - hashmap(very large array and a hashfunction which generates a very large number, then we do mod size of array to get index. Incase of collision, collision handling techniques like maybe linear, quadratic probing etc. are used. Inbuilt in STL)
+insertion, deletion, find - O(1). Use when order does not matter.
+
+e. Priority queues(maxheap and minheap) - Using heap - which is a complete binary tree s.t. the root element(for subtree also) is the minimum(for minheap) and maximum element(for maxheap)
+We can only get the max/min element respectively. This the difference with sets in which the elements are maintained in sorted fashion. Also heaps can handle duplicate values unlike sets/maps.
+
+f. Queues, stack - Using linked list
+
+g. list - Doubly linked list. Use when more insertion/deletion operations are required. Traversal is slow in list. This is the difference with vectors.
+
+h. forward_list - Singly linked list.
+
+11 -----------------------------------
+General idea
+If n<=12, the time complexity can be O(n!)
+If n<=25 -> O(2^n)
+If n<=100 -> O(n^4)
+If n<=500 -> O(n^3)
+If n<=10^4 -> O(n^2)
+If n<=10^6 -> O(nlogn)
+If n<=10^8 -> O(n)
+If n>10^8 -> O(logn) or O(1)
+Using these, we can guess the algorithms
+
+12. If array is given to be sorted, then most probably Binary Search will be used.  For a sorted array, v[start]<=v[mid]<=v[last](similarly if sorted in decreasing order.)
+* For circular traversing, i.e. if index reaches end of array or start reaches beginning of array use mod operations :-
+- start = (start-1+n)%n	- start = (start+1)%n		Works for 0 indexed cases
+If sorted array is rotated say k-times towards right, true index is (i-k+n)%n	Similarly derive for otherway around.
+*** Binary search in sorted rotated arrays***
+*** lower_bound and upper_bound using Binary Search***
+
+13. Interview preparation
+https://www.youtube.com/watch?v=1PZWL3W6dpc
+
+14. Always write mid = start + (last-start)/2 as mid<= mid in decimal in this case. Dont use last+(start-last)/2 as it will give the upper value.
+e.g. start = 3, last = 4 -> mid = 3+1/2 = 3 and otherwise mid = 4 + (-1)/2 = 4!!
+
+15. When using accumulate, sum = accumulate(v.begin(), v.end(), (int/double/lli)(0 or 1)) ALWAYS TYPE CAST THE INTIAL 0 or 1 THAT IS THE THIRD ARGUMENT!!!!!! (SAME FOR SIMILAR OTHER FUNCTIONS)
+
+16. Divide and Conquer
+ https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/
+In both Dynamic programming and DAC, we divide the problem into subproblems and use this to get the overall solution. However, in DP there are several overlapping subproblems due to which we use memoization. But in DAC there are no overlapping subproblems.
+For e.g. Fibbonacci problem has overlapping subproblems which we calculate again and again but in Binary Search every subproblem is different(reduced form of the previous)
+
+17. https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
+Mergesort - Consists of a merge function and iterative/recursive merging of rest. 
+Merge function can be implemented using O(n) extra space or inplace w/o extra space, but it's O(n2)
+
+18. https://www.geeksforgeeks.org/how-to-handle-duplicates-in-binary-search-tree/
+
+19. TREES
+
+* If 'n' nodes, then 'n-1' edges
+* Visualize a tree as collection of nodes, divided into a root node, and disjoint subsets called subtrees.
+* Degree of a  node = number of its direct children only(not descendents).
+* Degree of a tree is predecided. Cannot be told by looking at the tree. It can be greater equal to the maximum degree of a node.
+* Height of a tree - starts from 0 at root. (how many edges required to get to that node from root)
+* Level of a tree - starts from 1 at root.
+
+* Number of binary trees
+-> If nodes are unlabelled - T(n) = 2nCn/(n+1) - Catalan number
+-> Number of trees with maximum height -  2^(n-1)
+-> If nodes are labelled - T(n) = 2nCn/(n+1) * n!
+
+-> If height is given then #min. nodes = h+1. #Maximum nodes = 2^(h+1)-1
+-> If nodes are given then minimum height = log(n+1)-1 (base 2). Maximum height = n-1.
+-> # nodes deg(0) = # nodes deg(2)+1
+-> A strict binary(m-ary) tree can have nodes with degree only 0 or 2 (or m). # max nodes = (m^(h+1)-1)/(m-1). #min nodes = mh+1.
+# external nodes = (m-1)# internal nodes+1.
+-> A full binary tree of height h is a binary tree with maximum number of nodes.
+-> A complete binary if written in Level order traversal wont have any gaps between nodes. It's a full binary tree upto height h-1 and in the last level elements are filled from left to right without skipping.
+-> Time complexities of pre,in,postorder is O(n) with space complexity O(logn) (stack).
+-> Iterative postorder traversal - https://www.youtube.com/watch?v=xLQKdq0Ffjg
+-> Tree can be generated from either (Preorder and Inorder traversal) or (Postorder and Inorder traversal). If anyone is given then Catalan number(#nodes) of trees are possible.
+
+
+
+
+
