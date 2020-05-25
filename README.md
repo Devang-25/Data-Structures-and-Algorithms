@@ -16,6 +16,7 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
   3.1 https://www.youtube.com/watch?v=gY0MwGLq9W8&list=PLEAYkSg4uSQ1YxqcmBjCdK9oX1m-JDEx2 - NPTEL<br>
   3.2 https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O - Abdul Bari<br>
   3.3 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/<br>
+  3.4 https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P Excellent playlist<br>
   
 ## Algorithms
 0. Abdul Bari course is also good.
