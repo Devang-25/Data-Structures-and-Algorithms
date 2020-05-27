@@ -6,6 +6,20 @@
 
 0.2 In recursion, the recursive tree gets solved in postorder fashion.
 
+0.3 struct vs class - Absolutely no difference. In class by default everything is private whereas in struct everything is public by default.
+
+0.4 https://stackoverflow.com/questions/61497061/difference-in-order-with-same-comparator-in-priority-queue-vector
+
+0.5 UnionFind datastructure
+-> quickFind - iterate to make all occurences of one's components equal to the other's component
+-> quickUnion - Make one's parent equal to the other's parent
+->  weighted quickUnion - Make the root of the smaller component equal to the root of the bigger component(note that we are changing the root, In quickUnion, we are simply making ones parent as the others). This changing the root is what brings complexity from O(n) to O(logn).
+-> Further improvement to weighted quickUnion can be done by path compression. It basically flattens out the tree, when we are finding the root of a node. 
+We can set the parent of all the nodes in the path, to the root which will need an extra root. Or we can make every other node in the path to point to its grandparent. The second option won't truly flatten out the tree but helps.
+The first option makes m union find operations on n objects as ~linear in O(n+m)
+
+
+
 1. lower_bound and upper_bound work or a sorted vector(and set). lower_bound gives the first element >= given element. upper_bound gives the first element > given element.
 
 2. Iterator is like a pointer. *it will give the datastructure.
@@ -107,7 +121,19 @@ Merge function can be implemented using O(n) extra space or inplace w/o extra sp
 -> Iterative postorder traversal - https://www.youtube.com/watch?v=xLQKdq0Ffjg
 -> Tree can be generated from either (Preorder and Inorder traversal) or (Postorder and Inorder traversal). If anyone is given then Catalan number(#nodes) of trees are possible.
 
+20. BSTs
+-> The inorder traversal prints the elements in increasing order.
+->  The inorder successor of the current node is the minimum element in right subtree.
+-> The inorder predecessor of the current node is the maximum element in left subtree.
 
+21. AVL trees are height controlled BSTs.
 
+22. If the graph is given to be a DAG, then think of using Topological sort.
 
+23. https://stackoverflow.com/questions/13159337/why-doesnt-dijkstras-algorithm-work-for-negative-weight-edges
+
+24. Bellman Ford uses n-1 iterations as the maximum length of minimum path between any two vertices can be n-1. In each iteration we are exploring neighbours of minimum distance node. Thus, incase of connected graph it'll take atleast n-1 iterations.
+
+25.  Prims algorithm is based on Minimum Separator lemma: If we divide the set of vertices into two groups U and V. Then the minimum cost edge joining a vertex in U and V will be present in all the MSTs.
+Proof: Let the minimum cost edge be e = (u, v). Let T be a mst not containing e. Then as it's an mst, u and v are connected through u->u'->v'->v where u', v' is the edge between U and V included in T. Now, we can simply replace u', v' edge with u, v to get a smaller cost mst. We arrive at a contradiction.
 

@@ -252,6 +252,33 @@ node* construct(int* preArray, int* inArray, int inStart, int inEnd){
     return root;
 
 }
+node* construct2(int* postArray, int* inArray, int inStart, int inEnd){
+
+    static int postIndex = inEnd;
+    if(inStart>inEnd)
+        return nullptr;
+
+    int index = -1;
+    for(int i=inStart; i<=inEnd; i++){
+        if(inArray[i] == postArray[postIndex]){
+            index = i;
+            break;
+        }
+    }
+
+    node* root = new node(postArray[postIndex]);
+    postIndex--;
+
+    if(inStart==inEnd)
+        return root;
+
+    root->rchild = construct2(postArray, inArray, index+1, inEnd);
+    root->lchild = construct2(postArray, inArray, inStart, index-1);
+    return root;
+
+
+
+}
 int height(node* root){
 
     if(root==nullptr)
@@ -289,7 +316,12 @@ int main(){
     node* root2 = construct(preArray, inArray, 0, (sizeof(preArray)/sizeof(preArray[0]))-1);
     levelOrder(root2);
     cout<<endl;
-    cout<<height(root2);
+
+    int postArray[] = {4, 5, 2, 6, 7, 3, 1};
+    int inArray2[] = { 4, 2, 5, 1, 6, 3, 7 };
+
+    node* root3 = construct2(postArray, inArray2, 0, (sizeof(postArray)/sizeof(postArray[0]))-1);
+    levelOrder(root3);
 
 
 
