@@ -36,6 +36,50 @@ pair<int, int> ans(vector<int> v, int x){
     return {first, second};
 
 }
+
+/*
+// leetcode version solved using predicate framework
+
+vector<int> searchRange(vector<int>& nums, int target) {
+
+    if(nums.size()==0)
+        return {-1, -1};
+
+    int start(0), last(nums.size()-1);
+    while(start<last){
+
+        int mid = start+(last-start)/2;
+        if(nums[mid]>=target){
+            last = mid;
+        }else{
+            start = mid+1;
+        }
+
+    }
+    if(nums[start]!=target)
+        return {-1, -1};
+
+    int index1 = start;
+
+    last = nums.size()-1;
+    while(start<last){
+
+        int mid = start+(last-start+1)/2;
+        if(nums[mid]<=target){
+            start = mid;
+        }else{
+            last = mid-1;
+        }
+
+    }
+
+    return {index1, start};
+
+
+
+}
+
+*/
 int main(){
 
     int t; cin>>t;
