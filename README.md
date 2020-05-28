@@ -25,5 +25,5 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 3. Divide and Conquer: https://www.geeksforgeeks.org/divide-and-conquer/
 4. Backtracking: https://www.geeksforgeeks.org/backtracking-algorithms/
 5. Greedy Algorithms: https://www.geeksforgeeks.org/greedy-algorithms/
-6. Pattern Searching: https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/
+6. Pattern Searching: https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/<br>
   6.1 Abdul Bari's course has KMP and Rabin-Karp
