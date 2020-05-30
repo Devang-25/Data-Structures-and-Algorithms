@@ -1,65 +1,72 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<vector<int> > fun(vector<vector<int> >& mat){
+// this function calculates the sum of matrix with bottom right corner at botR_x and botR_y and of length l
+int getSum(vector<vector<int> >& sumMatrix, int botR_x, int botR_y, int l){
 
+    int topL_x = botR_x-l;
+    int topL_y = botR_y-l;
 
-    int rows = mat.size(); int cols = mat[0].size();
-    vector<vector<int> > arr(mat);
+    int sum_ = 0;
+    sum_+=sumMatrix[botR_x][botR_y];
 
-    for(int i=0; i<rows; i++){
-        for(int j=1; j<cols; j++){
-            arr[i][j] = arr[i][j]+arr[i][j-1];
-        }
-    }
+    if(topL_y>=0)
+        sum_-=sumMatrix[botR_x][topL_y];
+    if(topL_x>=0)
+        sum_-=sumMatrix[topL_x][botR_y];
+    if(topL_x>=0 && topL_y>=0)
+        sum_+=sumMatrix[topL_x][topL_y];
 
-    for(int i=1; i<rows; i++){
-        for(int j=0; j<cols; j++){
-            arr[i][j] = arr[i][j]+arr[i-1][j];
-        }
-    }
-
-    return arr;
+    return sum_;
 
 }
+
 int maxSideLength(vector<vector<int>>& mat, int threshold) {
 
     int rows(mat.size()), cols(mat[0].size());
 
-    vector<vector<int> > summed = fun(mat);
-
-    int i(0), j(cols-1);
-
-    int ans = 0;
-    while(i<rows && j>=0){
-
-        cout<<"yes"<<endl;
-
-        if(summed[i][j]>threshold){
-            j--;
+    // sumMatrix consists of sum of matrix whose bottom right corner is
+    // i,j th element and top-left corner is 0,0
+    vector<vector<int> > sumMatrix(rows, vector<int>(cols, 0));
+    for(int i=0; i<rows; i++){
+        int rowSum = 0;
+        for(int j=0; j<cols; j++){
+            rowSum+=mat[i][j];
+            if(i==0)
+                sumMatrix[i][j] = rowSum;
+            else{
+                sumMatrix[i][j] = sumMatrix[i-1][j]+rowSum;
+            }
         }
-        else if(summed[i][j]<threshold){
-            if(i==j){
-                ans = i;
+    }
+
+    // find maxLength for every i,j element and store maximum in it.
+    int res = 0;
+    for(int i=0; i<rows; i++){
+
+        for(int j=0; j<cols; j++){
+
+            // minimum length can be 1 and maximum can be the minimum of rows and column
+            int lo(1), hi(min(i, j)+1); // adding 1 because of zero-based indexing
+            while(lo<hi){
+
+                int mid = lo+(hi-lo+1)/2;
+                // F*T* predicate, we want last F
+                if(getSum(sumMatrix, i, j, mid)>threshold)
+                    hi = mid-1;
+                else
+                    lo = mid;
+
             }
-            i++;
-        }
-        else if(summed[i][j]==threshold){
-            if(i==j){
-                ans  = i;
-                break;
-            }
-            else if(i>j){
-                i--;
-            }
-            else if(i<j){
-                j--;
-            }
+            // sanity check
+            if(getSum(sumMatrix, i, j, lo)<=threshold)
+                res = max(res, lo);
+
         }
 
     }
 
-    return ans+1;
+    return res;
 
 }
 
