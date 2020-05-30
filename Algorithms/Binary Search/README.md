@@ -18,6 +18,18 @@ Predicate framework of Binary Search - https://www.topcoder.com/community/compet
 14. [bitonicArraySearch](https://www.geeksforgeeks.org/find-element-bitonic-array/) - Search for an element in bitonic array. <br>
 15. [2dArrayBS](https://leetcode.com/problems/search-a-2d-matrix-ii/) - Given a m by n matrix in which elements in each row and column are sorted in increasing order. Search for an element. <br>
 16. [allocateMinimumNoOfPages](https://www.geeksforgeeks.org/allocate-minimum-number-pages/) - Given number of pages in n different books and m students. The books are arranged in ascending order of number of pages. Every student is assigned to read some consecutive books. The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum. <br>
+17. [peakInMountainArray](https://leetcode.com/problems/peak-index-in-a-mountain-array/) - Given a bitonic array, find the maximum. Same as 13th question. <br>
+18. [findInMountainArray](https://leetcode.com/problems/find-in-mountain-array/) - Same as 14th question. <br>
+19. [smallestDivisorGivenAThreshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) - Given an array of integers nums and an integer threshold, we will choose a positive integer divisor and divide all the array by it and sum the result of the division. Find the smallest divisor such that the result mentioned above is less than or equal to threshold. When dividing, we'll take the ceil of the result.<br>
+20. [sumOfMutatedArrayClosestToTarget](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) - Given an integer array arr and a target value target, return the integer value such that when we change all the integers larger than value in the given array to be equal to value, the sum of the array gets as close as possible (in absolute difference) to target. Incase of a tie, return the minimum integer.<br>
+21. [capacityToShipWithinDdays](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) - A conveyor belt has packages that must be shipped from one port to another within D days. The i-th package on the conveyor belt has a weight of weights[i].  Each day, we load the ship with packages on the conveyor belt (in the order given by weights). We may not load more weight than the maximum weight capacity of the ship. Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within D days.<br>
+22. [kokoEatingBananas](https://leetcode.com/problems/koko-eating-bananas/) - There are N piles of bananas, the i-th pile has piles[i] bananas.  The guards have gone and will come back in H hours. Koko can decide her bananas-per-hour eating speed of K.  Each hour, she chooses some pile of bananas, and eats K bananas from that pile.  If the pile has less than K bananas, she eats all of them instead, and won't eat any more bananas during this hour. Return the minimum integer K such that she can eat all the bananas within H hours.
+24. [elementOccuringMoreThan25pct](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) - Given a sorted array, there is exactly one integer that occurs more than 25% of the time. Find the integer. GOOD!<br>
+25. [025 maximumSideLengthOfSquare](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) - Given a m x n matrix mat and an integer threshold. Return the maximum side-length of a square with a sum less than or equal to threshold or return 0 if there is no such square. GOOD!<br>
+
+
+
+
 
 TODO:<br>
 https://www.geeksforgeeks.org/smallest-alphabet-greater-than-a-given-character/<br>
