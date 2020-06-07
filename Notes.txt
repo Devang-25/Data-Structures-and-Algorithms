@@ -18,7 +18,19 @@
 We can set the parent of all the nodes in the path, to the root which will need an extra root. Or we can make every other node in the path to point to its grandparent. The second option won't truly flatten out the tree but helps.
 The first option makes m union find operations on n objects as ~linear in O(n+m)
 
+0.6 https://www.geeksforgeeks.org/converting-strings-numbers-cc/
+https://www.geeksforgeeks.org/converting-string-to-number-and-vice-versa-in-c/?ref=rp
+https://www.geeksforgeeks.org/comparing-two-strings-cpp/?ref=rp
 
+0.7 https://leetcode.com/discuss/general-discussion/662866/dp-for-beginners-problems-patterns-sample-solutions
+https://leetcode.com/articles/two-pointer-technique/#
+https://leetcode.com/discuss/general-discussion/669996/greedy-for-beginners-problems-sample-solutions
+
+0.8 Linked list starting point of cycle algorithm proof - https://www.youtube.com/watch?v=-YiQZi3mLq0
+
+0.9 https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-leetcode
+
+0.91 Try to use integer arrays instead of unorderedmaps for hashmap implementation.  They are very fast.
 
 1. lower_bound and upper_bound work or a sorted vector(and set). lower_bound gives the first element >= given element. upper_bound gives the first element > given element.
 

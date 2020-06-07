@@ -20,15 +20,19 @@ int ans(vector<int> v, int b){
 }
 int main(){
 
-    int t; cin>>t;
-    for(int i=0; i<t; i++){
+//    int t; cin>>t;
+//    for(int i=0; i<t; i++){
+//
+//        int n, b; cin>>n>>b;
+//        vector<int> v(n);
+//        for(int j=0; j<n; j++)
+//            cin>>v[j];
+//        cout<<"Case #"<<i+1<<": "<<ans(v, b)<<endl;
+//    }
+    string str1 = to_string(3)+to_string(30);
+    string str2 = to_string(30)+to_string(3);
+    cout<<str1<<" "<<str2<<" "<<(str1>str2)<<endl;
 
-        int n, b; cin>>n>>b;
-        vector<int> v(n);
-        for(int j=0; j<n; j++)
-            cin>>v[j];
-        cout<<"Case #"<<i+1<<": "<<ans(v, b)<<endl;
-    }
 
 return 0;
 }
