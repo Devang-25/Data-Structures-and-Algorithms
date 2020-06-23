@@ -32,6 +32,8 @@ https://leetcode.com/discuss/general-discussion/669996/greedy-for-beginners-prob
 
 0.91 Try to use integer arrays instead of unorderedmaps for hashmap implementation.  They are very fast.
 
+0.92 https://stackoverflow.com/questions/9167745/in-stdmultiset-is-there-a-function-or-algorithm-to-erase-just-one-sample-unic
+
 1. lower_bound and upper_bound work or a sorted vector(and set). lower_bound gives the first element >= given element. upper_bound gives the first element > given element.
 
 2. Iterator is like a pointer. *it will give the datastructure.
