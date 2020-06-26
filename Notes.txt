@@ -25,6 +25,7 @@ https://www.geeksforgeeks.org/comparing-two-strings-cpp/?ref=rp
 0.7 https://leetcode.com/discuss/general-discussion/662866/dp-for-beginners-problems-patterns-sample-solutions
 https://leetcode.com/articles/two-pointer-technique/#
 https://leetcode.com/discuss/general-discussion/669996/greedy-for-beginners-problems-sample-solutions
+https://leetcode.com/discuss/general-discussion/698684/interview-preparation-for-beginners-ds-algorithms-os-system-design
 
 0.8 Linked list starting point of cycle algorithm proof - https://www.youtube.com/watch?v=-YiQZi3mLq0
 

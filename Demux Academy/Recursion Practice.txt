@@ -2,7 +2,7 @@ Questions::
 
 Explicit Recursion:
 
-https://www.hackerrank.com/challenges/recursive-digit-sum/
+https://www.hackerrank.com/challenges/recursive-digit-sum/ - done
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 https://leetcode.com/problems/wildcard-matching/
 https://leetcode.com/problems/regular-expression-matching/
@@ -13,18 +13,19 @@ a. Basic to intermediate
 https://leetcode.com/problems/subsets/ - done
 https://leetcode.com/problems/subsets-ii/ - done
 https://leetcode.com/problems/combinations/ - done
-https://leetcode.com/problems/combination-sum/ - done(more efficient approach needed)
-https://leetcode.com/problems/combination-sum-iii/
+https://leetcode.com/problems/combination-sum/ - done
+https://leetcode.com/problems/combination-sum-iii/ - done
 
 b. Intermediate to advanced
-https://leetcode.com/problems/combination-sum-ii/
-https://leetcode.com/problems/palindrome-partitioning/ 
+https://leetcode.com/problems/combination-sum-ii/ - done
+https://leetcode.com/problems/palindrome-partitioning/ - done
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+
 
 
 3. Arrangement alike:
 https://leetcode.com/problems/permutations/ - done
-https://leetcode.com/problems/permutations-ii/ 
+https://leetcode.com/problems/permutations-ii/ - done
 https://leetcode.com/problems/beautiful-arrangement/
 
 4. Decisions on Matrices:
@@ -33,7 +34,7 @@ https://leetcode.com/problems/unique-paths-iii/
 https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
 https://leetcode.com/problems/sudoku-solver/
 https://leetcode.com/problems/n-queens/
-https://leetcode.com/problems/n-queens-ii/
+https://leetcode.com/problems/n-queens-ii/ - done
 
 5. Recursion look-alike mathematical questions:
 https://leetcode.com/problems/permutation-sequence/
