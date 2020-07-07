@@ -1,0 +1,14 @@
+DS Design:
+
+https://leetcode.com/problems/min-stack/
+https://leetcode.com/problems/time-based-key-value-store/ 
+https://leetcode.com/problems/peeking-iterator/ 
+https://www.interviewbit.com/problems/sliding-window-maximum/ 
+https://leetcode.com/problems/copy-list-with-random-pointer/
+https://leetcode.com/problems/maximum-frequency-stack/
+https://leetcode.com/problems/maximum-equal-frequency/
+https://leetcode.com/problems/insert-delete-getrandom-o1/
+https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+https://leetcode.com/problems/all-oone-data-structure/
+https://leetcode.com/problems/lru-cache/ 
+https://leetcode.com/problems/sliding-window-median/

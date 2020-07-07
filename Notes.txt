@@ -1,8 +1,14 @@
 0. PLEASE CHECK PROBLEM CONSTRAINTS!!!!!!
 
+https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?ch=10&share=dcc3b398&srid=oeMh
+https://www.quora.com/What-are-the-best-ways-to-master-dynamic-programming/answer/Sameer-Gulati-3?ch=10&share=87d550d5&srid=oeMh
+https://www.quora.com/How-can-I-be-good-at-graph-theory-based-programming-problems-in-competitive-programming/answer/Sameer-Gulati-3?ch=10&share=fed73688&srid=oeMh
+
 0. https://www.geeksforgeeks.org/malloc-vs-new/
 
 0.1 Access global declared variable e.g. int x by ::x
+
+0.15 https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
 
 0.2 In recursion, the recursive tree gets solved in postorder fashion.
 
