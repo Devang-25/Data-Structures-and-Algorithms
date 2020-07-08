@@ -1,18 +1,18 @@
 1. Search Structures:
 a. Ad-hoc:
-https://leetcode.com/problems/max-points-on-a-line/
-https://leetcode.com/problems/group-anagrams/
-https://leetcode.com/problems/fraction-to-recurring-decimal/
-https://leetcode.com/problems/prison-cells-after-n-days/
+https://leetcode.com/problems/max-points-on-a-line/ - done
+https://leetcode.com/problems/group-anagrams/ - done
+https://leetcode.com/problems/fraction-to-recurring-decimal/ - done
+https://leetcode.com/problems/prison-cells-after-n-days/ - done
 
 b. Subarrays:
-https://leetcode.com/problems/subarray-sum-equals-k/
-https://leetcode.com/problems/subarray-sums-divisible-by-k/
+https://leetcode.com/problems/subarray-sum-equals-k/ - done
+https://leetcode.com/problems/subarray-sums-divisible-by-k/ - done
 https://leetcode.com/problems/contiguous-array/
 
 c. Frequency counting:
-https://leetcode.com/problems/brick-wall/
-https://leetcode.com/problems/rabbits-in-forest/
+https://leetcode.com/problems/brick-wall/ - done
+https://leetcode.com/problems/rabbits-in-forest/ - done
 
 d. Need for ordering:
 https://leetcode.com/problems/minimum-size-subarray-sum/
