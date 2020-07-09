@@ -8,7 +8,7 @@ https://leetcode.com/problems/prison-cells-after-n-days/ - done
 b. Subarrays:
 https://leetcode.com/problems/subarray-sum-equals-k/ - done
 https://leetcode.com/problems/subarray-sums-divisible-by-k/ - done
-https://leetcode.com/problems/contiguous-array/
+https://leetcode.com/problems/contiguous-array/ - done
 
 c. Frequency counting:
 https://leetcode.com/problems/brick-wall/ - done
@@ -16,7 +16,7 @@ https://leetcode.com/problems/rabbits-in-forest/ - done
 
 d. Need for ordering:
 https://leetcode.com/problems/minimum-size-subarray-sum/
-https://leetcode.com/problems/my-calendar-ii/
+https://leetcode.com/problems/my-calendar-ii/ - done(more efficient needed)
 https://leetcode.com/problems/my-calendar-iii/
 https://leetcode.com/problems/range-module/
 
