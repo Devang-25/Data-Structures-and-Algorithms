@@ -1,9 +1,11 @@
 DS Design:
 
-https://leetcode.com/problems/min-stack/ - done(O1 space solution still needed)
+https://leetcode.com/problems/min-stack/ - done
 https://leetcode.com/problems/time-based-key-value-store/ - done
 https://leetcode.com/problems/insert-delete-getrandom-o1/ - done
 https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/ - done
+https://leetcode.com/problems/all-oone-data-structure/ - done
+https://leetcode.com/problems/lru-cache/ - done
 
 
 https://leetcode.com/problems/peeking-iterator/ 
@@ -11,6 +13,5 @@ https://www.interviewbit.com/problems/sliding-window-maximum/
 https://leetcode.com/problems/copy-list-with-random-pointer/
 https://leetcode.com/problems/maximum-frequency-stack/
 https://leetcode.com/problems/maximum-equal-frequency/
-https://leetcode.com/problems/all-oone-data-structure/
-https://leetcode.com/problems/lru-cache/ 
+
 https://leetcode.com/problems/sliding-window-median/
