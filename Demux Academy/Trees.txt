@@ -1,0 +1,30 @@
+Topic wise Tree/BST questions -
+
+- Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/ - done
+- Same Tree - https://leetcode.com/problems/same-tree/ - done
+- Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/ - done
+- Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/ - done
+- Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ - done
+- Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/ - done
+- Kth Smallest Element in a BST - https://leetcode.com/problems/kth-smallest-element-in-a-bst/ - done
+- Lowest Common Ancestor of BST - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/ - done
+
+- Add and Search Word - https://leetcode.com/problems/add-and-search-word-data-structure-design/
+- Word Search II - https://leetcode.com/problems/word-search-ii/
+- Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
+- Serialize and Deserialize Binary Tree - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+- Subtree of Another Tree - https://leetcode.com/problems/subtree-of-another-tree/ 
+
+
+Home work Questions -Tree Traversal -
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ - done
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/ - done
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ - done
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ - done
+https://leetcode.com/problems/symmetric-tree/ - done
+
+
+https://leetcode.com/problems/binary-tree-right-side-view/
+https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
+https://leetcode.com/problems/average-of-levels-in-binary-tree/description/

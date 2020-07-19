@@ -1,0 +1,34 @@
+- Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
+- Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
+- Valid Anagram - https://leetcode.com/problems/valid-anagram/
+- Group Anagrams - https://leetcode.com/problems/group-anagrams/
+- Valid Parentheses - https://leetcode.com/problems/valid-parentheses/
+- Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+- Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
+- Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
+- Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/
+
+Tries -
+https://leetcode.com/problems/implement-trie-prefix-tree/
+https://leetcode.com/problems/add-and-search-word-data-structure-design/
+https://leetcode.com/problems/concatenated-words/
+https://leetcode.com/problems/design-search-autocomplete-system/
+https://leetcode.com/problems/word-search-ii/
+
+
+KMP
+Algo - http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/
+
+Dry Run - http://www.mathcs.emory.edu/~cheung/Courses/323/Syllabus/Text/Matching-KMP1.html
+
+For understanding why j = lps[j-1] -> https://leetcode.com/problems/implement-strstr/discuss/13160/detailed-explanation-on-building-up-lps-for-kmp-algorithm
+
+Time complexity - https://stackoverflow.com/questions/9182651/whats-the-worst-case-complexity-for-kmp-when-the-goal-is-to-find-all-occurrence
+
+https://cs.stackexchange.com/questions/118277/time-complexity-for-calculating-the-lps-array-failure-function-in-kmp-algori
+
+Practise questions -
+https://leetcode.com/problems/shortest-palindrome/
+https://leetcode.com/problems/implement-strstr/
+https://www.hackerearth.com/practice/algorithms/string-algorithm/string-searching/practice-problems/algorithm/game-of-strings-2/
