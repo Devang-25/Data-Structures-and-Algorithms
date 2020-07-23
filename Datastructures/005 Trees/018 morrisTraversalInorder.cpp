@@ -29,8 +29,6 @@ public:
 
         while(curr!=nullptr){
 
-            cout<<curr->val<<" ";
-
             if(curr->left==nullptr){
 
                 // visit curr

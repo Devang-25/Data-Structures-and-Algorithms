@@ -24,7 +24,7 @@ https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-t
 https://leetcode.com/problems/symmetric-tree/ - done
 
 
-https://leetcode.com/problems/binary-tree-right-side-view/
-https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
-https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
+https://leetcode.com/problems/binary-tree-right-side-view/ - done
+https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/ - done
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/ - done
+https://leetcode.com/problems/average-of-levels-in-binary-tree/description/ - done

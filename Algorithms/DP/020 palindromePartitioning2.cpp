@@ -1,4 +1,3 @@
-
 // basic MCM solution with memoization
 class Solution {
 public:
@@ -32,6 +31,9 @@ public:
 
         int ans = INT_MAX;
         for(int k=l; k<r; k++){
+
+            if(!isPalindrome(s, l, k))
+                continue;
 
             int a = dp[l][k]==-1?dp[l][k]=minCutUtil(s, l, k, dp):dp[l][k];
             int b = dp[k+1][r]==-1?dp[k+1][r]=minCutUtil(s, k+1, r, dp):dp[k+1][r];
