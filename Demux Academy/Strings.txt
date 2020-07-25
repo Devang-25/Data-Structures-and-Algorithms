@@ -10,11 +10,11 @@
 - Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/
 
 Tries -
-https://leetcode.com/problems/implement-trie-prefix-tree/
-https://leetcode.com/problems/add-and-search-word-data-structure-design/
-https://leetcode.com/problems/concatenated-words/
+https://leetcode.com/problems/implement-trie-prefix-tree/ - done
+https://leetcode.com/problems/add-and-search-word-data-structure-design/ - done
+https://leetcode.com/problems/concatenated-words/ - done
 https://leetcode.com/problems/design-search-autocomplete-system/
-https://leetcode.com/problems/word-search-ii/
+https://leetcode.com/problems/word-search-ii/ - done
 
 
 KMP
@@ -29,6 +29,6 @@ Time complexity - https://stackoverflow.com/questions/9182651/whats-the-worst-ca
 https://cs.stackexchange.com/questions/118277/time-complexity-for-calculating-the-lps-array-failure-function-in-kmp-algori
 
 Practise questions -
-https://leetcode.com/problems/shortest-palindrome/
-https://leetcode.com/problems/implement-strstr/
+https://leetcode.com/problems/shortest-palindrome/ - done
+https://leetcode.com/problems/implement-strstr/ - done
 https://www.hackerearth.com/practice/algorithms/string-algorithm/string-searching/practice-problems/algorithm/game-of-strings-2/
