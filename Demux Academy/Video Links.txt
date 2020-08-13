@@ -1,0 +1,32 @@
+Trees, Hash-tables & Heaps
+https://youtu.be/xYUb-NeedZ4
+https://youtu.be/aPpJUk8t_ns
+
+Recording for Data Structures is available now: LLs,stacks queue hash map
+https://youtu.be/ZDlSFCUzPHs
+
+Recording for Data Structures 2 is available now:
+https://youtu.be/o4XVF_krrAk
+
+
+video link for today's class on BST and HEAPS by sanket sir:
+https://youtu.be/p0bxxfAgLWM
+
+Hi All video link for BST and Heap contd. is available now:
+https://youtu.be/BfU6pezUf1U
+
+HI all video on Questions on Trees is available on below link:
+https://youtu.be/qNDcwEk8N68
+
+HI all video on Questions on Trees day2 is available on below link:
+https://youtu.be/85YfWo68iH0
+
+Reference:
+https://docs.google.com/document/d/1ZV7qyUw6MTNqzho7y4loXQDqcNrfTCp_pbHTjqEYT18/edit
+
+HI all video on Strings (Tries + KMP + Manacher’s Algo) is available on below link:
+https://youtu.be/bI-bbVg1-9c
+HI all video on Strings (Tries + KMP + Manacher’s Algo) part 2 is available on below link:
+https://youtu.be/fiLh7e9Li0k
+HI all video on Strings (Tries + KMP + Manacher’s Algo) part 3 is available on below link:
+https://youtu.be/f5zxKtwCynw

@@ -1,3 +1,6 @@
+https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
+https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
 Prefix/Suffix in O(n):
 https://leetcode.com/problems/house-robber/ - done
 https://leetcode.com/problems/house-robber-ii/ - done
@@ -9,7 +12,113 @@ https://leetcode.com/problems/climbing-stairs/ - done
 https://leetcode.com/problems/decode-ways/ - done
 https://leetcode.com/problems/decode-ways-ii/
 https://leetcode.com/problems/integer-break/ - done
-https://leetcode.com/problems/arithmetic-slices/
+https://leetcode.com/problems/arithmetic-slices/ - done
 https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
 https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
+Prefix/Suffix in O(n^2):
+https://leetcode.com/problems/longest-increasing-subsequence/ - done
+https://leetcode.com/problems/longest-arithmetic-sequence/ - done
+https://leetcode.com/problems/word-break/ - done
+https://leetcode.com/problems/word-break-ii/
+https://leetcode.com/problems/stone-game-iii/
+https://leetcode.com/problems/palindrome-partitioning-ii/ - done, but sir's approach needed
+https://leetcode.com/problems/wiggle-subsequence/ - done
+https://leetcode.com/problems/odd-even-jump/
+
+Variants of Knapsack:
+https://leetcode.com/problems/coin-change/
+https://www.interviewbit.com/problems/0-1-knapsack/
+https://www.interviewbit.com/problems/coin-sum-infinite/
+https://www.spoj.com/problems/KNAPSACK/ 
+https://www.hackerrank.com/challenges/unbounded-knapsack/problem 
+https://www.interviewbit.com/problems/tushars-birthday-party/ 
+https://www.interviewbit.com/problems/subset-sum-problem/
+
+https://leetcode.com/problems/edit-distance/
+https://leetcode.com/problems/distinct-subsequences/
+https://leetcode.com/problems/longest-common-subsequence/
+https://leetcode.com/problems/distinct-subsequences-ii/https://leetcode.com/problems/frog-jump/
+
+Length DP in O(n^2):
+https://leetcode.com/problems/stone-game/
+https://leetcode.com/problems/longest-palindromic-subsequence/
+https://leetcode.com/problems/longest-palindromic-substring/
+
+
+---------------------------------
+
+2D DP:
+
+Row-wise filling in O(n^2)
+https://leetcode.com/problems/target-sum/
+https://leetcode.com/problems/partition-equal-subset-sum/
+https://leetcode.com/problems/last-stone-weight-ii/
+
+https://leetcode.com/problems/coin-change/
+https://www.interviewbit.com/problems/0-1-knapsack/
+https://www.interviewbit.com/problems/coin-sum-infinite/
+https://www.spoj.com/problems/KNAPSACK/ 
+https://www.hackerrank.com/challenges/unbounded-knapsack/problem 
+https://www.interviewbit.com/problems/tushars-birthday-party/ 
+https://www.interviewbit.com/problems/subset-sum-problem/
+
+https://www.interviewbit.com/problems/n-digit-numbers-with-digit-sum-s-/ 
+
+https://leetcode.com/problems/edit-distance/ 
+https://leetcode.com/problems/distinct-subsequences/
+https://leetcode.com/problems/longest-common-subsequence/
+https://leetcode.com/problems/distinct-subsequences-ii/
+
+https://leetcode.com/problems/frog-jump/
+
+Length DP in O(n^2):
+https://leetcode.com/problems/stone-game/
+https://leetcode.com/problems/longest-palindromic-subsequence/ 
+https://leetcode.com/problems/longest-palindromic-substring/ 
+
+O(n^3):
+https://leetcode.com/problems/stone-game-ii/
+https://leetcode.com/problems/largest-sum-of-averages/ 
+https://leetcode.com/problems/burst-balloons/ 
+
+
+
+Matrix DP:
+https://leetcode.com/problems/minimum-path-sum/
+https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+https://www.interviewbit.com/problems/min-sum-path-in-matrix/ 
+https://www.interviewbit.com/problems/dungeon-princess/ 	
+https://www.interviewbit.com/problems/unique-paths-in-a-grid/ 
+https://www.interviewbit.com/problems/kingdom-war/ 
+https://leetcode.com/problems/cherry-pickup/
+
+Tree DP:
+https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
+https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
+
+Digit DP:
+https://leetcode.com/problems/count-numbers-with-unique-digits/
+https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
+https://leetcode.com/problems/numbers-with-repeated-digits/
+https://leetcode.com/problems/digit-count-in-range/
+https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+DP with bitmasking:
+https://leetcode.com/problems/find-the-shortest-superstring/
+https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+https://leetcode.com/problems/maximum-students-taking-exam/
+https://leetcode.com/problems/number-of-squareful-arrays/
+
+Others:
+https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
+https://leetcode.com/problems/student-attendance-record-ii/
+
+
+Greedy:
+https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
+https://leetcode.com/problems/maximum-profit-in-job-scheduling/

@@ -1,0 +1,55 @@
+Connectivity and reachability:
+https://leetcode.com/problems/number-of-islands/
+https://leetcode.com/problems/number-of-distinct-islands/
+https://leetcode.com/problems/surrounded-regions/
+https://leetcode.com/problems/number-of-enclaves/
+https://leetcode.com/problems/number-of-closed-islands/
+https://leetcode.com/problems/keys-and-rooms/
+https://leetcode.com/problems/max-area-of-island/
+https://leetcode.com/problems/flood-fill/
+https://leetcode.com/problems/jump-game-iii/
+https://leetcode.com/problems/course-schedule-iv/
+
+
+Cyclicity:
+https://leetcode.com/problems/course-schedule/
+https://leetcode.com/problems/find-eventual-safe-states/
+
+BFS (shortest path):
+https://leetcode.com/problems/word-ladder/
+https://leetcode.com/problems/word-ladder-ii/
+https://leetcode.com/problems/01-matrix/
+https://leetcode.com/problems/as-far-from-land-as-possible/
+https://leetcode.com/problems/rotting-oranges/
+https://leetcode.com/problems/shortest-path-in-binary-matrix/
+https://leetcode.com/problems/shortest-path-with-alternating-colors/
+https://leetcode.com/problems/as-far-from-land-as-possible/
+
+Topological Sort:
+https://leetcode.com/problems/course-schedule-ii/
+https://leetcode.com/problems/alien-dictionary/
+https://leetcode.com/problems/parallel-courses/
+
+DFS + Tarjan’s Algo:
+https://leetcode.com/problems/critical-connections-in-a-network/
+
+Dijkstra’s Algorithm:
+https://leetcode.com/problems/path-with-maximum-minimum-value/
+https://leetcode.com/problems/path-with-maximum-probability/
+https://leetcode.com/problems/network-delay-time/
+
+Floyd-Warshall/Bellman-ford:
+https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+
+Union Find:
+https://leetcode.com/problems/friend-circles/
+https://leetcode.com/problems/redundant-connection/
+https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+https://leetcode.com/problems/satisfiability-of-equality-equations/
+https://leetcode.com/problems/accounts-merge/
+https://leetcode.com/problems/redundant-connection-ii/
+
+Graph coloring:
+https://leetcode.com/problems/possible-bipartition/
+https://leetcode.com/problems/is-graph-bipartite/

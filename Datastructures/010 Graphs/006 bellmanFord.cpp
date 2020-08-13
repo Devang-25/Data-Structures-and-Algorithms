@@ -1,6 +1,6 @@
 // Dijkstra's algorithm fails incase of negative edges
 // Therefore we have Bellman ford algorithm
-// A negative must not exist as the minimum weight path won't be defined(path go around in that cycle and the weight keeps on decreasing)
+// A negative cycle must not exist as the minimum weight path won't be defined(path go around in that cycle and the weight keeps on decreasing)
 #include<bits/stdc++.h>
 using namespace std;
 
