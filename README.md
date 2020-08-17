@@ -34,3 +34,4 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 3. DSW Balance BST algorithm: https://leetcode.com/problems/balance-a-binary-search-tree/discuss/541785/C%2B%2BJava-with-picture-DSW-O(n)orO(1)
 4. Egg drop Interesting approach : https://leetcode.com/problems/super-egg-drop/discuss/158974/C%2B%2BJavaPython-2D-and-1D-DP-O(KlogN)
 5. Next permutation best explaination : https://www.youtube.com/watch?v=quAS1iydq7U
+6. https://leetcode.com/discuss/interview-question/790428/facebook-phone-interview-questions
