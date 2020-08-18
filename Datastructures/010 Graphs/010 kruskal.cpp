@@ -24,22 +24,22 @@ int find_(vector<int>& components, int i){
 //    return find_(components, components[i]);
 
 // iterative
-//    while(components[i]!=i)
-//        i = componenets[i];
-//    return i;
+    while(components[i]!=i)
+        i = componenets[i];
+    return i;
 
-     return components[i];
+//     return components[i];
 
 }
 
 // O(n)
 void union_(vector<int>& components, int x, int y){
 
-//    int xComp = find_(components, x);
-//    int yComp = find_(components, y);
-//
+    int xComp = find_(components, x);
+    int yComp = find_(components, y);
+
 //    if(xComp!=yComp){ // this condition is not required
-//        components[xComp] = yComp;
+        components[xComp] = yComp;
 //    }
 
     /*
@@ -49,15 +49,15 @@ void union_(vector<int>& components, int x, int y){
 
     // store these before hand in variables
     // using directly inplace of xid and yid can change these in process
-    int xId = components[x];
-    int yId = components[y];
-
-    for(int i=0; i<components.size(); i++){
-
-        if(components[i]==yId){
-            components[i] = xId;
-        }
-    }
+//    int xId = components[x];
+//    int yId = components[y];
+//
+//    for(int i=0; i<components.size(); i++){
+//
+//        if(components[i]==yId){
+//            components[i] = xId;
+//        }
+//    }
 
 }
 

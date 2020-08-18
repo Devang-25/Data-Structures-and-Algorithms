@@ -38,10 +38,11 @@ https://www.hackerrank.com/challenges/unbounded-knapsack/problem
 https://www.interviewbit.com/problems/tushars-birthday-party/ 
 https://www.interviewbit.com/problems/subset-sum-problem/
 
-https://leetcode.com/problems/edit-distance/
+https://leetcode.com/problems/edit-distance/ - done
 https://leetcode.com/problems/distinct-subsequences/
-https://leetcode.com/problems/longest-common-subsequence/
-https://leetcode.com/problems/distinct-subsequences-ii/https://leetcode.com/problems/frog-jump/
+https://leetcode.com/problems/longest-common-subsequence/ - done
+https://leetcode.com/problems/distinct-subsequences-ii/
+https://leetcode.com/problems/frog-jump/
 
 Length DP in O(n^2):
 https://leetcode.com/problems/stone-game/

@@ -1,8 +1,8 @@
 Connectivity and reachability:
-https://leetcode.com/problems/number-of-islands/
+https://leetcode.com/problems/number-of-islands/ - done
 https://leetcode.com/problems/number-of-distinct-islands/
-https://leetcode.com/problems/surrounded-regions/
-https://leetcode.com/problems/number-of-enclaves/
+https://leetcode.com/problems/surrounded-regions/ - done
+https://leetcode.com/problems/number-of-enclaves/ - done
 https://leetcode.com/problems/number-of-closed-islands/
 https://leetcode.com/problems/keys-and-rooms/
 https://leetcode.com/problems/max-area-of-island/
@@ -26,24 +26,24 @@ https://leetcode.com/problems/shortest-path-with-alternating-colors/
 https://leetcode.com/problems/as-far-from-land-as-possible/
 
 Topological Sort:
-https://leetcode.com/problems/course-schedule-ii/
-https://leetcode.com/problems/alien-dictionary/
+https://leetcode.com/problems/course-schedule-ii/ - done
+https://leetcode.com/problems/alien-dictionary/ - done
 https://leetcode.com/problems/parallel-courses/
 
 DFS + Tarjan’s Algo:
-https://leetcode.com/problems/critical-connections-in-a-network/
+https://leetcode.com/problems/critical-connections-in-a-network/ - done
 
 Dijkstra’s Algorithm:
 https://leetcode.com/problems/path-with-maximum-minimum-value/
-https://leetcode.com/problems/path-with-maximum-probability/
-https://leetcode.com/problems/network-delay-time/
+https://leetcode.com/problems/path-with-maximum-probability/ - done
+https://leetcode.com/problems/network-delay-time/ - done
 
 Floyd-Warshall/Bellman-ford:
-https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/ - done
 
 Union Find:
-https://leetcode.com/problems/friend-circles/
-https://leetcode.com/problems/redundant-connection/
+https://leetcode.com/problems/friend-circles/ - done
+https://leetcode.com/problems/redundant-connection/ - done
 https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 https://leetcode.com/problems/satisfiability-of-equality-equations/

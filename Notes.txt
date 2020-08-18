@@ -10,6 +10,8 @@ https://www.quora.com/How-can-I-be-good-at-graph-theory-based-programming-proble
 
 0.15 https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
 
+0.16 Using custom comparators with priority queues https://stackoverflow.com/questions/16111337/declaring-a-priority-queue-in-c-with-a-custom-comparator
+
 0.2 In recursion, the recursive tree gets solved in postorder fashion.
 
 0.3 struct vs class - Absolutely no difference. In class by default everything is private whereas in struct everything is public by default.
@@ -113,7 +115,7 @@ For e.g. Fibbonacci problem has overlapping subproblems which we calculate again
 
 17. https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
 Mergesort - Consists of a merge function and iterative/recursive merging of rest. 
-Merge function can be implemented using O(n) extra space or inplace w/o extra space, but it's O(n2)
+Merge function can be implemented using O(n) extra space or ->  inplace w/o extra space, but it's O(n2)
 
 18. https://www.geeksforgeeks.org/how-to-handle-duplicates-in-binary-search-tree/
 
