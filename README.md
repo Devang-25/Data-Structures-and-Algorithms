@@ -35,3 +35,5 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 4. Egg drop Interesting approach : https://leetcode.com/problems/super-egg-drop/discuss/158974/C%2B%2BJavaPython-2D-and-1D-DP-O(KlogN)
 5. Next permutation best explaination : https://www.youtube.com/watch?v=quAS1iydq7U
 6. https://leetcode.com/discuss/interview-question/790428/facebook-phone-interview-questions
+7. Cherry pickup discussions - https://leetcode.com/problems/cherry-pickup/discuss/329945/Very-easy-to-follow-%3A-step-by-step-recursive-backtracking-with-memoization-N4.
+https://leetcode.com/problems/cherry-pickup/discuss/109903/Step-by-step-guidance-of-the-O(N3)-time-and-O(N2)-space-solution
