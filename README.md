@@ -40,3 +40,5 @@ https://leetcode.com/problems/cherry-pickup/discuss/109903/Step-by-step-guidance
 8. Median of 2 sorted arrays : https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation <br>
 This question can also be done by using kth largest element given two sorted arrays. General form of this is -> https://www.youtube.com/watch?v=Q3JUfHpffIg
 9. Tiling problem : https://www.geeksforgeeks.org/tiling-problem-using-divide-and-conquer-algorithm/
+10. Sliding window maximum : https://www.youtube.com/watch?v=5VDQxLAlfu0 <br>
+https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation
