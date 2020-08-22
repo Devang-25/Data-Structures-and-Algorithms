@@ -28,7 +28,7 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 6. Pattern Searching: https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/<br>
   6.1 Abdul Bari's course has KMP and Rabin-Karp <br>
 
-## Good Leetcode discussions
+## Good discussions and problems
 1. Best leetcode discussions: https://leetcode.com/discuss/general-discussion/618186/best-leetcode-discussions-for-interview-preparation <br>
 2. Number of Islands followup: https://leetcode.com/problems/number-of-islands/discuss/640295/Optimized-by-memory-(follow-up-question-what-if-matrix-is-too-big)
 3. DSW Balance BST algorithm: https://leetcode.com/problems/balance-a-binary-search-tree/discuss/541785/C%2B%2BJava-with-picture-DSW-O(n)orO(1)
@@ -39,3 +39,4 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 https://leetcode.com/problems/cherry-pickup/discuss/109903/Step-by-step-guidance-of-the-O(N3)-time-and-O(N2)-space-solution
 8. Median of 2 sorted arrays : https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation <br>
 This question can also be done by using kth largest element given two sorted arrays. General form of this is -> https://www.youtube.com/watch?v=Q3JUfHpffIg
+9. Tiling problem : https://www.geeksforgeeks.org/tiling-problem-using-divide-and-conquer-algorithm/
