@@ -38,3 +38,4 @@ Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/
 7. Cherry pickup discussions - https://leetcode.com/problems/cherry-pickup/discuss/329945/Very-easy-to-follow-%3A-step-by-step-recursive-backtracking-with-memoization-N4.
 https://leetcode.com/problems/cherry-pickup/discuss/109903/Step-by-step-guidance-of-the-O(N3)-time-and-O(N2)-space-solution
 8. Median of 2 sorted arrays : https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation
+This question can also be done by using kth largest element given two sorted arrays. General form of this is -> https://www.youtube.com/watch?v=Q3JUfHpffIg
