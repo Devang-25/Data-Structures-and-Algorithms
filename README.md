@@ -43,3 +43,4 @@ This question can also be done by using kth largest element given two sorted arr
 10. Sliding window maximum : https://www.youtube.com/watch?v=5VDQxLAlfu0 <br>
 https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation
 Sliding window model(discusses various variants) : https://www.youtube.com/watch?v=MK-NZ4hN7rs
+11. Amazon question, binary expression tree : https://leetcode.com/discuss/interview-question/804632/amazon-phone-minimal-removal-to-reach-target-for-expression-tree
