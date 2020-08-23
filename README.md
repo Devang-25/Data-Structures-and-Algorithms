@@ -42,3 +42,4 @@ This question can also be done by using kth largest element given two sorted arr
 9. Tiling problem : https://www.geeksforgeeks.org/tiling-problem-using-divide-and-conquer-algorithm/
 10. Sliding window maximum : https://www.youtube.com/watch?v=5VDQxLAlfu0 <br>
 https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation
+Sliding window model(discusses various variants) : https://www.youtube.com/watch?v=MK-NZ4hN7rs
