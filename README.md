@@ -1,6 +1,10 @@
 # Data-Structures-and-Algorithms
 Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/competitive-programming/tutorials
 
+## Sites for Internship/Placement Quant test preparation
+https://lofoya.com/
+https://www.indiabix.com/aptitude/questions-and-answers/
+
 ## Basic Maths for Competitive Programming
 1. https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/
 2. https://www.geeksforgeeks.org/mathematical-algorithms/
