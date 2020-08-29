@@ -1,6 +1,10 @@
 # Data-Structures-and-Algorithms
 Top Coder Competitive Programming Tutorial - https://www.topcoder.com/community/competitive-programming/tutorials
 
+## Sites for Internship/Placement Quant test preparation
+https://lofoya.com/
+https://www.indiabix.com/aptitude/questions-and-answers/
+
 ## Basic Maths for Competitive Programming
 1. https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/
 2. https://www.geeksforgeeks.org/mathematical-algorithms/
@@ -43,3 +47,7 @@ This question can also be done by using kth largest element given two sorted arr
 10. Sliding window maximum : https://www.youtube.com/watch?v=5VDQxLAlfu0 <br>
 https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation
 Sliding window model(discusses various variants) : https://www.youtube.com/watch?v=MK-NZ4hN7rs
+11. Amazon question, binary expression tree : https://leetcode.com/discuss/interview-question/804632/amazon-phone-minimal-removal-to-reach-target-for-expression-tree
+12. Skyline problem : https://www.youtube.com/watch?v=Cv0ft2dFz80 <br>
+https://www.youtube.com/watch?v=GSBLe8cKu0s
+13. Graph and string problem(remove minimum number of chars from string so that a property is satisfied): https://www.youtube.com/watch?v=EE_9U798nvQ
