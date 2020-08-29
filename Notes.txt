@@ -8,6 +8,8 @@ https://www.quora.com/How-can-I-be-good-at-graph-theory-based-programming-proble
 
 0.1 Access global declared variable e.g. int x by ::x
 
+0.11 Wherever possible, try using s+=a instead of s = s+a as it doesn't create a separate copy of s due to which it is memory efficient. Also s = s+1 is equivalent to ++s not s++
+
 0.15 https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
 
 0.16 Using custom comparators with priority queues https://stackoverflow.com/questions/16111337/declaring-a-priority-queue-in-c-with-a-custom-comparator
