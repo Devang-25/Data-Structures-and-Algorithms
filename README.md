@@ -51,3 +51,4 @@ Sliding window model(discusses various variants) : https://www.youtube.com/watch
 12. Skyline problem : https://www.youtube.com/watch?v=Cv0ft2dFz80 <br>
 https://www.youtube.com/watch?v=GSBLe8cKu0s
 13. Graph and string problem(remove minimum number of chars from string so that a property is satisfied): https://www.youtube.com/watch?v=EE_9U798nvQ
+14. Largest histogram question variation : https://leetcode.com/discuss/interview-question/815454/amazon-oa-question-sde-1
