@@ -53,3 +53,5 @@ https://www.youtube.com/watch?v=GSBLe8cKu0s
 13. Graph and string problem(remove minimum number of chars from string so that a property is satisfied): https://www.youtube.com/watch?v=EE_9U798nvQ
 14. Largest histogram question variation : https://leetcode.com/discuss/interview-question/815454/amazon-oa-question-sde-1
 15. https://leetcode.com/discuss/interview-experience/810079/google-l3-bangalore-august-2020-offer
+16. Rabin-Karp algo question https://leetcode.com/problems/longest-duplicate-substring/
+17. Convex Hull https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/
