@@ -58,5 +58,6 @@ https://www.youtube.com/watch?v=GSBLe8cKu0s
 17. Convex Hull https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/
 18. https://www.geeksforgeeks.org/pattern-searching-using-suffix-tree/
 19. Max-flow Ford fulkerson + BFS = EdmondKarp Algorithm https://www.youtube.com/watch?v=GiN3jRdgxU4 
+Good video(NPTEL): https://www.youtube.com/watch?v=yxHDqjT6OQw&list=PLyqSpQzTE6M9DKhN7z2fOpKTJWu-639_P&index=52
 Can be used to solve maximum number of edge disjoin paths between two given nodes. https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/<br>
 Can be used to solve minimum s-t cut problem. "Minimum s-t cut capacity is equal to max flow capacity". https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/
