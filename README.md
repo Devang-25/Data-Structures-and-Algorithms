@@ -56,6 +56,7 @@ https://www.youtube.com/watch?v=GSBLe8cKu0s
 #TODO
 16. Rabin-Karp algo question https://leetcode.com/problems/longest-duplicate-substring/
 17. Convex Hull https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/
+https://www.youtube.com/watch?v=B2AJoQSZf4M
 18. https://www.geeksforgeeks.org/pattern-searching-using-suffix-tree/
 19. Max-flow Ford fulkerson + BFS = EdmondKarp Algorithm https://www.youtube.com/watch?v=GiN3jRdgxU4 <br>
 Good video(NPTEL): https://www.youtube.com/watch?v=yxHDqjT6OQw&list=PLyqSpQzTE6M9DKhN7z2fOpKTJWu-639_P&index=52 <br>
