@@ -64,3 +64,4 @@ Good video(NPTEL): https://www.youtube.com/watch?v=yxHDqjT6OQw&list=PLyqSpQzTE6M
 Can be used to solve maximum number of edge disjoin paths between two given nodes. https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/<br>
 Can be used to solve minimum s-t cut problem. "Minimum s-t cut capacity is equal to max flow capacity". https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/ <br>
 Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> https://www.youtube.com/watch?v=GhjwOiJ4SqU&list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P&index=34 <br>
+20. Z-algorithm tutorial -> https://www.youtube.com/watch?v=uFPSFsOlklE&list=PLX4N9vQU5pGaEiXOnX1PE_UFvCO-Qkpav&index=2 <br>
