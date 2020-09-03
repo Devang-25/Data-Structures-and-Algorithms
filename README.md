@@ -66,3 +66,4 @@ Can be used to solve minimum s-t cut problem. "Minimum s-t cut capacity is equal
 Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> https://www.youtube.com/watch?v=GhjwOiJ4SqU&list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P&index=34 <br>
 20. Z-algorithm tutorial -> https://www.youtube.com/watch?v=uFPSFsOlklE&list=PLX4N9vQU5pGaEiXOnX1PE_UFvCO-Qkpav&index=2 <br>
 21. https://leetcode.com/discuss/interview-question/822153/apple-redacted-developer-technology-engineer-cupertino-ca-austin-tx-10-yoe-reject <br>
+22. Suffix array playlist -> https://www.youtube.com/watch?v=OptoHwC3D-Y&list=PLDV1Zeh2NRsCQ_Educ7GCNs3mvzpXhHW5&index=6 <br>
