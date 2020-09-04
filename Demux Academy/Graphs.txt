@@ -53,3 +53,11 @@ https://leetcode.com/problems/redundant-connection-ii/
 Graph coloring:
 https://leetcode.com/problems/possible-bipartition/
 https://leetcode.com/problems/is-graph-bipartite/
+
+
+Bipartite:
+http://www.spoj.com/problems/BUGLIFE/
+https://codeforces.com/contest/1296/problem/E1
+
+Maxflow:
+https://codeforces.com/contest/498/problem/c

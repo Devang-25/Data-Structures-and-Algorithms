@@ -18,23 +18,26 @@ int main(){
     cout<<a<<endl;
     cout<<p<<endl;
     cout<<&a<<endl;
-    cout<<*p<<endl; // Dereferencing pointer
+    cout<< *p <<endl; // Dereferencing pointer
 
+//    delete p; // we can't delete p as it's not referring to a memory in heap
     // Heap memory allocation and Dynamic Memory Allocation
     int *q = new int[5];
     q[2]= 23;
 
-    delete []p;
+    delete[] q;
 
     q = new int[10];
 
-
+    // make pointer null after deleting the memory
     delete []q;
     q = nullptr;
     cout<<"-----------------"<<endl;
+
+
     // Pointer arithmetic
-    int array[5]={3,2,4,9,20};
-    int *r=array, *s=&array[3];
+    int arr[5]={3,2,4,9,20};
+    int *r=arr, *s=&arr[3];
 
     cout<<*r<<" "<<*s<<endl;
     r++; s--;
@@ -42,9 +45,9 @@ int main(){
     r--; s++;
     cout<<s-r<<" hello"<<endl;
     for(int j=0;j<5;j++){
-        cout<<array[j]<<" "<<j[array]<<endl;
-        cout<<*(array+j)<<" "<<*(j+array)<<endl;
-        cout<<array+j<<endl;
+        cout<<arr[j]<<" "<<j[arr]<<endl;
+        cout<<*(arr+j)<<" "<<*(j+arr)<<endl;
+        cout<<arr+j<<endl;
     }
 
     int (*fp)(int, int) = max;

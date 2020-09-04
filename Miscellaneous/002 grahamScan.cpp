@@ -1,139 +1,89 @@
-#include<bits/stdc++.h>
-using namespace std;
-typedef pair<int, int> p;
-
-int dist(p p1, p p2){
-    return pow(p1.first-p2.first,2)+pow(p1.second-p2.second, 2);
-}
-// sorts points in increasing order of y coordinate. incase of ties, increasing order of x
-bool myComparator1(p p1, p p2){
-
-    if(p1.second<p2.second)
-        return true;
-    else if(p1.second>p2.second)
-        return false;
-    return p1.first<p2.first;
-
-}
-// sort points in increasing order of polar angle from a fixed point
-// incase of ties, closer point is comes first
-class myComparator2{
-
-    p p_;
+class Solution {
 public:
-    myComparator2(p p_){
-        this->p_ = p_;
+
+    static int distSq(vector<int>  p1, vector<int>  p2) {
+        return (p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1]);
     }
-    bool operator()(p p1, p p2){
 
-        int val = (p2.second-p_.second)*(p1.first-p_.first) - (p1.second-p_.second)*(p2.first-p_.first);
-
-        if(val>0)
-            return true;
-        else if(val<0){
-            return false;
+    // To find orientation of ordered triplet (p, q, r).
+    // The function returns following values
+    // 0 --> p, q and r are colinear
+    // 1 --> Clockwise
+    // 2 --> Counterclockwise
+    static int orientation(vector<int>  p, vector<int>  q, vector<int>  r) {
+        int val = (q[1] - p[1]) * (r[0] - q[0]) - (q[0] - p[0]) * (r[1] - q[1]);
+        if (val == 0) {
+            return 0;  // colinear
         }
-        if(dist(p_, p1)<dist(p_, p2))
-            return true;
-        else
-            return false;
-
+        return (val > 0) ? 1 : 2; // clock or counterclock wise
     }
 
+    vector<vector<int> > outerTrees(vector<vector<int> > points) {
+
+        if (points.size() <= 3) {
+            return points;
+        }
+        // Find the bottommost and left-most point
+        int y_min = points[0][1], idx = 0;
+        for(int i=1; i<points.size(); i++){
+            if(points[i][1]<y_min || (points[i][1]==y_min && points[i][0]<points[idx][0])){
+                y_min = points[i][1];
+                idx = i;
+            }
+        }
+
+        // Place the bottom-most point at first position
+        swap(points[0], points[idx]);
+
+        // If the intermediate points on the boundary are not needed then minute changes required in sorting statements.
+
+        // Sort the points in increasing order of polar angle w.r.t. points[0]
+        // In tied case, the one having smaller distance from p0 comes first
+        vector<int>  p0 = points[0];
+        sort(points.begin(), points.end(), [&](vector<int>& p1, vector<int>& p2){
+
+            // p0 should be at beginning
+            if(p1==p0) return true;
+            if(p2==p0) return false;
+
+            int o = orientation(p0, p1, p2);
+            // If points are collinear
+            // If x coordinate is same, sort in decreasing order of y coordinate
+            // else sort in increasing order of x coordinate
+            if (o == 0) {
+
+                if(p1[0]==p2[0])
+                    return p1[1]>p2[1];
+                else
+                    return p1[0]<p2[0];
+
+            }
+            return (o == 2);
+        });
+
+        // If the first few points have same x coordinate, then sort them in increasing order of y
+        int i=0;
+        while(points[i][0]==points[i+1][0])
+            i++;
+
+        if(i>0)
+            sort(points.begin(), points.begin()+i+1, [&](vector<int> p1, vector<int> p2){
+                return p1[1]<p2[1];
+            });
+
+        // Create an empty stack and push first three points to it.
+        vector<vector<int> > vertices;
+        vertices.push_back(points[0]);
+        vertices.push_back(points[1]);
+        // Process remaining n-2 points
+        for (int i = 2; i < points.size(); i++) {
+
+            //Keep removing top, until the current top 2 points in stack and points[i] forms a clockwise turn
+            while (orientation(vertices[vertices.size() - 2], vertices.back(), points[i]) == 1)
+                vertices.pop_back();
+
+            vertices.push_back(points[i]);
+        }
+        return vertices;
+    }
 };
-
-// returns true if p2 lies on left of line joining p0 and p1
-int orientation(p p0, p p1, p p2){
-
-    int val = (p2.second-p0.second)*(p1.first-p0.first) - (p1.second-p0.second)*(p2.first-p0.first);
-
-    if(val>0)
-        return 1;
-    else if(val<=0){
-        return 0;
-    }
-}
-vector<p> grahamScan(vector<p> points){
-
-
-    // sort in increasing order of y-coordinate
-    sort(points.begin(), points.end(), myComparator1);
-
-
-    // sort points in increasing order of polar angle w.r.t. to points[0]
-    // if polar angle is same then low dist comes first
-    sort(points.begin(), points.end(), myComparator2(points[0]));
-
-
-    // if many same polar angle points are found, only keep the farthest one
-    // TODO
-    // if new size less than 3, no hull is possible
-    for(auto i = points.begin(); i!=points.end(); i++){
-
-        p p0 = points[0];
-        p p1 = *(i-1);
-        p p2 = *i;
-        int val = (p2.second-p0.second)*(p1.first-p0.first) - (p1.second-p0.second)*(p2.first-p0.first);
-        if(val==0)
-            points.erase(i-1);
-
-
-    }
-
-
-    stack<p> hull;
-    hull.push(points[0]); // the bottom left point will be in hull
-    hull.push(points[1]);
-    hull.push(points[2]);
-
-    for(int i=3; i<points.size(); i++){
-
-
-
-        p p1 = hull.top(); hull.pop();
-        p p2 = hull.top(); hull.pop();
-
-        // p[i] lies on left of line joining p1 and p2. So sure that p2 is in hull
-        if(orientation(p2, p1, points[i])){
-            hull.push(p2);
-            hull.push(p1);
-            hull.push(points[i]);
-        }else{ // sure that p2 is not in hull
-            hull.push(p1);
-            hull.push(points[i]);
-        }
-
-    }
-
-
-    vector<p> hull_;
-    while(!hull.empty()){
-        hull_.push_back(hull.top());
-        hull.pop();
-    }
-
-    reverse(hull_.begin(), hull_.end());
-    return hull_;
-
-
-}
-int main(){
-
-//    int n; cin>>n;
-//    vector<p> points(n);
-//    for(int i=0; i<n; i++){
-//        int x,y; cin>>x>>y;
-//        points[i] = {x, y};
-//    }
-
-    vector<p> points = {{0, 3}, {1, 1}, {2, 2}, {4, 4},
-                      {0, 0}, {1, 2}, {3, 1}, {3, 3}};
-
-    vector<p> hull = grahamScan(points);
-    for(auto i:hull)
-        cout<<i.first<<" "<<i.second<<endl;
-
-
-
-return 0;
-}

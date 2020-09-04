@@ -54,7 +54,7 @@ int main(){
     c = ++a * b;
     cout<<a<<" "<<b<<" "<<c<<endl;
 
-    int day=2;
+    int day=7;
 
     switch(day){
         case 1: cout<<"monday";
