@@ -68,3 +68,4 @@ Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> http
 21. https://leetcode.com/discuss/interview-question/822153/apple-redacted-developer-technology-engineer-cupertino-ca-austin-tx-10-yoe-reject <br>
 22. Suffix array playlist -> https://www.youtube.com/watch?v=OptoHwC3D-Y&list=PLDV1Zeh2NRsCQ_Educ7GCNs3mvzpXhHW5&index=6 <br>
 23. https://leetcode.com/discuss/interview-experience/821453/goldman-sach-virtual-interview
+24. Weighted job scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/discuss/409031/C%2B%2B-Sort-and-DP-O(NlogN)
