@@ -69,3 +69,7 @@ Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> http
 22. Suffix array playlist -> https://www.youtube.com/watch?v=OptoHwC3D-Y&list=PLDV1Zeh2NRsCQ_Educ7GCNs3mvzpXhHW5&index=6 <br>
 23. https://leetcode.com/discuss/interview-experience/821453/goldman-sach-virtual-interview
 24. Weighted job scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/discuss/409031/C%2B%2B-Sort-and-DP-O(NlogN)
+25. How to use Leetcode effectively: https://docs.google.com/document/d/1IES8uw9f4w9iCsIoArUioYB8ctVRR-TaA1Qu4YhcQ9U/preview?pru=AAABdKyjdc0*nWdrLI3O3Bm7xUG8OV_xPQ
+26. https://leetcode.com/discuss/interview-experience/842389/10-companies-15-interviews-and-4-offers-my-story
+27. Amazon leadership principles - https://www.youtube.com/watch?v=Ta9tCwcMbXs
+
