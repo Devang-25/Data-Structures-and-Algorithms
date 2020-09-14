@@ -72,4 +72,4 @@ Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> http
 25. How to use Leetcode effectively: https://docs.google.com/document/d/1IES8uw9f4w9iCsIoArUioYB8ctVRR-TaA1Qu4YhcQ9U/preview?pru=AAABdKyjdc0*nWdrLI3O3Bm7xUG8OV_xPQ
 26. https://leetcode.com/discuss/interview-experience/842389/10-companies-15-interviews-and-4-offers-my-story
 27. Amazon leadership principles - https://www.youtube.com/watch?v=Ta9tCwcMbXs
-28. Gap method to merge two sorted arrays : https://www.youtube.com/watch?v=hVl2b3bLzBw
+28. Gap method to merge two sorted arrays : https://www.youtube.com/watch?v=hVl2b3bLzBw -> Uses shell sort
