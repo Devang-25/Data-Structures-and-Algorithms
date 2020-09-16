@@ -50,7 +50,7 @@ int max_flow(int v, vector<vector<int> >& edge_list){
     vector<int> parent(v);
     int max_flow = 0;
 
-    // source is 1(0 in our case) and N(v-1 in our case)
+    // source is 1(0 in our case) and sink is N(v-1 in our case)
     int s = 0;
     int t = v-1;
     while(bfs(res_graph, s, t, parent)){
