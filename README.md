@@ -76,3 +76,4 @@ Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> http
 29. Buy Sell 4 -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/ great question
 30. Optimal BST - https://www.youtube.com/watch?v=vLS-zRCHo-Y
 https://www.youtube.com/watch?v=hgA4xxlVvfQ
+31. Minmax algorithm - https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/
