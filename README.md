@@ -77,3 +77,4 @@ Can be used to solve Job assignment problems(Maximum Bipartite Matching) -> http
 30. Optimal BST - https://www.youtube.com/watch?v=vLS-zRCHo-Y
 https://www.youtube.com/watch?v=hgA4xxlVvfQ
 31. Minmax algorithm - https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/
+32. Square sorting interesting O1 - https://leetcode.com/discuss/interview-question/351341/Google-or-Onsite-or-Squares-of-a-Sorted-Array/318306
